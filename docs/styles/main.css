@@ -129,7 +129,7 @@ body {
 
 .sideBar {
 	background-color: #ABABAB;
-	height: 200px;
+	height: 350px;
 	float: left;
 }
 
@@ -428,4 +428,33 @@ hr {
 
 .companyInfo {
 	max-height: 300px;
+}
+
+a:hover {
+	color: orange;
+}
+
+.category_list {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.category_list_content {
+	height:200px;
+	width:300px;
+	background-color: white;
+	float:left;
+	position: absolute;
+	left: 405px;
+	top: 245px;
+	z-index:10;
+	box-shadow: 1px 1px 3px 3px grey;
+	border-radius: 3px;
+}
+
+.not_visible {
+	/*dispaly: none;*/
+	visibility: hidden;
 }
