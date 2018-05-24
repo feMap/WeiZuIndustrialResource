@@ -193,7 +193,8 @@ body {
 
 .main-content {
 	margin-top: 10px;
-	height: 600px;
+	/* height: 600px; */
+	margin-bottom: 30px;
 }
 
 
@@ -310,7 +311,7 @@ hr {
 }
 
 .div-inlineBlock {
-	
+
 }
 
 .inline--block {
@@ -393,7 +394,7 @@ hr {
 }
 
 .card_content_detail {
-	
+
 }
 
 .recommendCom_title {

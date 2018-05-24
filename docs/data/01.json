@@ -1,0 +1,63 @@
+{
+	"title": "工艺外协",
+	"keywords": [{
+			"value": "表面处理"
+		},
+		{
+			"value": "热处理"
+		},
+		{
+			"value": "防腐工艺"
+		},
+		{
+			"value": "更多分类"
+		}
+	],
+	"image_url": "images/item-2.png",
+	"subtitle_list": [{
+			"work_name": "表面处理",
+			"detail_list": [{
+					"value": "喷砂"
+				},
+				{
+					"value": "抛光"
+				},
+				{
+					"value": "打磨"
+				},
+				{
+					"value": "其他"
+				}
+			]
+		},
+		{
+			"work_name": "热处理",
+			"detail_list": [{
+					"value": "整体热处理"
+				},
+				{
+					"value": "局部热处理"
+				},
+				{
+					"value": "其他"
+				}
+			]
+		},
+		{
+			"work_name": "防腐工艺",
+			"detail_list": [{
+					"value": "衬胶"
+				},
+				{
+					"value": "电镀"
+				},
+				{
+					"value": "酸洗"
+				},
+				{
+					"value": "PTFE"
+				}
+			]
+		}
+	]
+}

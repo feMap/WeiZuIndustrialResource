@@ -16,7 +16,7 @@
 </head>
 <body>
 	<div class="topBar">
-		<div class="wrapper"> 
+		<div class="wrapper">
 			<div class="topBar_content">
 				<span class="logo_sm"></span>
 			  	<div class="topBar_text_left grey_color">
@@ -32,9 +32,9 @@
 							<li>我的推广信息</li>
 						</div>
 					</a>
-					
-	
-					
+
+
+
 					<a href="#" class="collect">收藏本页</a>
 				</div>
 			</div>
@@ -44,12 +44,12 @@
 	<div class="header">
 		<div class="wrapper">
 			<img class="logo_large" src="images/main_logo.png" alt="main_logo_large">
-			
+
 			<div class="weixinQR">
 				<div style="font-size:15px;">扫扫有惊喜</div>
 				<img src="images/weixinQR.png" alt="">
 			</div>
-			
+
 			<div class="searchPart">
 				<div class="searchPart__keyword">
 					<a href="#">焊工招聘</a>
@@ -59,8 +59,8 @@
 					<span class="photo_number">客服电话：021-60741460</span>
 				</div>
 				<form class="form-inline navbar-form pull-right">
-    				<input class="form-control" type="text" size="50" placeholder="请输入关键词">&nbsp;
-        			<button class="btn btn-success-outline btn--blue" type="submit">搜索</button>
+    				<input id="searchBox" class="form-control" type="text" size="50" placeholder="请输入关键词">&nbsp;
+        			<button id="ajax_button" class="btn--new btn--blue" type="submit">搜索</button>
   				</form>
 				<div class="hot_keywords">
 					<span class="hot_keywords_title">热门关键词：</span>
@@ -71,7 +71,7 @@
 					<span>产品-5&nbsp;</span>
 				</div>
 			</div>
-			
+
 		  	<div class="navBar">
 				<div class="nav_header">
 					<span id="whole_category"><img src="images/icons/ico_0.png" alt="">&nbsp;所有分类</span>
@@ -130,7 +130,7 @@
 					</a>
 				</div>
 			</div>
-			
+
 			<div class="jumbotron col--3--header float-right padding--sm companyInfo">
 				<h1 class="font-sm-header">公司简介</h1>
 				<p class="lead" style="font-size:18px;">威组工业技术有限公司</p>
@@ -141,10 +141,10 @@
 				<a class="btn btn-primary btn-sm" href="#" role="button">了解更多</a>
 				</p>
 			</div>
-			
+
 		</div>
 	</div>
-	
+
 	<div class="main-content">
 		<div class="wrapper">
 			<hr class="header-main">
@@ -160,7 +160,7 @@
 					<a>机床加工</a>
 				</span>
 			</div>
-			
+
 			<div class="card__define card--shadow clearfix">
 				<div class="card_content_pic col--3--large">
 					<img src="images/item-1.png" width="100%" height="auto" alt=""/>
@@ -228,10 +228,95 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="ajaxPart">
-		
+
+	<div class="main-content">
+		<div class="wrapper">
+			<hr class="header-main">
+			<div class="section_title">
+				<span style="width:15px;height:80%;background-color:#FD8502;">&nbsp;</span>
+				&nbsp;机床加工
+				<span class="section_keywords">
+					<span class="section_keywords_title">热门关键词：</span>
+					<a>冷成型机床&nbsp;</a>
+					<a>普通机床&nbsp;</a>
+					<a>数控机床&nbsp;</a>
+					<a>特种机床&nbsp;</a>
+					<a>机床加工</a>
+				</span>
+			</div>
+
+			<div class="card__define card--shadow clearfix">
+				<div class="card_content_pic col--3--large">
+					<img src="images/item-1.png" width="100%" height="auto" alt=""/>
+				</div>
+				<div class="card_content_left col--4">
+					<div class="card_content_detail">
+						<span style="font-weight:bold">冷成型机床&nbsp;</span>
+						<span>冲床卷板机</span>
+						<span>剪板机液压机</span>
+					</div>
+					<hr class="card_sep">
+					<div class="card_conten_detail">
+						<span style="font-weight:bold">普通机床&nbsp;</span>
+						<span>车床</span>
+						<span>锯床</span>
+						<span>磨床</span>
+					</div>
+					<hr class="card_sep">
+					<div class="card_conten_detail">
+						<span style="font-weight:bold">数控机床&nbsp;</span>
+						<a>数控车床</a>
+						<a>数控加工中心</a>
+						<a>数控铣床</a>
+						<a>数控钻床</a>
+					</div>
+					<hr class="card_sep">
+					<div class="card_conten_detail">
+						<span style="font-weight:bold">特种机床&nbsp;</span>
+						<a>线切割激光切割</a>
+						<a>水切割</a>
+						<a>电火花加工</a>
+					</div>
+					<hr class="card_sep">
+				</div>
+				<div class="card_seperate_line col--1">&nbsp;</div>
+				<div class="card_content_right col--4">
+					<span class="recommendCom_title">推荐企业</span>
+					<table class="table font-sm2">
+						<thead>
+							<tr>
+							<th>#</th>
+							<th>公司名称</th>
+							<th>公司地址</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>湖南万物工业软件有限公司</td>
+								<td>湖南</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>山东l临清亿联轴承有限公司</td>
+								<td>山东</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>河北泊头市宏远压瓦机厂</td>
+								<td>河北</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<div id="test_Ajax" class="main-content">
+
+	</div>
+
 
 	<div class="footer">
 		<div class="wrapper">
@@ -288,8 +373,8 @@
 			<div class="company_info">沪ICP备14046223号-2&copy;2008-2015 GONGYEZIYUAN All Rights Reserved</div>
 		</div>
 	</div>
-	
-	
+
+
 
 	<script src="scripts/jquery.min.js"></script>
 	<script src="scripts/bootstrap.js"></script>
