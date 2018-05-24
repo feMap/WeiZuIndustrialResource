@@ -1,7 +1,7 @@
 // JavaScript Document
 $(function(){
 	$(".userBusinessRoom_content").hide();
-	
+
 	$(".userBusinessRoom").hover(function(){
 		$(".userBusinessRoom_content").show();
 	},function(){
@@ -22,7 +22,7 @@ $(function(){
 			dataType: "json",
 			async: true,
 		}).done(function(data) {
-			
+
 			var keywordPart = "";
 
 			$.each(data.keywords, function(index, keyword) {
@@ -32,9 +32,7 @@ $(function(){
 			});
 
 			console.log(keywordPart);
-			
-			
-			
+
 			$("#test_Ajax").append(`
 				<div class="wrapper">
 					<hr class="header-main">
