@@ -94,7 +94,7 @@ body {
 }
 .searchPart {
 	float: right;
-	padding-top: 36px;
+	padding-top: 25px;
 	margin-right: 12px;
 }
 .navBar {
@@ -234,7 +234,7 @@ hr {
 
 .weixinQR {
 	text-align: center;
-	margin-top: 37px;
+	margin-top: 30px;
 	float: right;
 	margin-right: 3px;
 }
@@ -248,9 +248,11 @@ hr {
 .photo_number {
 	float: right;
 	position: relative;
-	right: 20px;
+	right: 0px;
 	font-weight: 600;
 	color: #5E66CC;
+	font-size: 11px;
+	top: 6px;
 }
 
 
@@ -263,11 +265,13 @@ hr {
 }
 .searchPart__keyword a {
 	color: black;
-	margin-right: 10px;
+	margin-right: 1px;
 	text-decoration: none;
+	font-size: 11px;
 }
 
 .hot_keywords {
+	font-size: 12px;
 	margin-left: 3px;
 	margin-top: 5px;
 }
